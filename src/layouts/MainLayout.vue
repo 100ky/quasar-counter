@@ -2,8 +2,7 @@
   <q-layout view="lHh Lpr lFf" class="bg-primary">
     <q-img
       src="pozadi.jpg"
-      class="fit absolute"
-    />
+      class="fit absolute" />
     <q-page-container>
       <router-view />
     </q-page-container>
