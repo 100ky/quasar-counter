@@ -3,12 +3,11 @@
     clickable
     tag="a"
     target="_blank"
-    :href="props.link"
-  >
+    :href="props.link">
+
     <q-item-section
       v-if="props.icon"
-      avatar
-    >
+      avatar>
       <q-icon :name="props.icon" />
     </q-item-section>
 

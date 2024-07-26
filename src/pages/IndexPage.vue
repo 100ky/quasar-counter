@@ -8,8 +8,7 @@
         input-class="text-center text-h5 text-white"
         color="tael"
         placeholder="Counter"
-        filled
-        />
+        filled />
     </div>
     <div class="row full-width items-center">
       <div class="col text-center">
@@ -18,8 +17,7 @@
           v-touch-repeat:300:300:300:300:50.mouse.enter.space="decreaseCounter"
         icon="remove"
         size="xl"
-        round
-        />
+        round />
       </div>
       <div class="col text-center text-h2">
           {{ data.counter }}
@@ -30,8 +28,7 @@
         v-touch-repeat:300:300:300:300:50.mouse.enter.space="increaseCounter"
         icon="add"
         size="xl"
-        round
-      />
+        round />
     </div>
     </div>
     <div class="row">
@@ -39,8 +36,7 @@
         @click="restartCounter"
         icon="restart_alt"
         size="xl"
-        round
-      />
+        round />
     </div>
   </q-page>
 </template>
